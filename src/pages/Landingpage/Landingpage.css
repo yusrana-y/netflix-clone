@@ -1,0 +1,24 @@
+*{
+   margin:0;
+   padding: 0;
+}
+
+.image{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.7)100%,rgba(0,0,0,0)100%), url('../../assets/netflix-brand-hero-image.jpg');
+}
+
+.hero-text{
+    font-size: 3rem;
+    font-weight:800;
+    color: white;
+    text-align:center
+}
